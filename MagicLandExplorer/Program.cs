@@ -13,9 +13,8 @@ namespace MagicLandExplorer
         {
             string filepath = Path.Combine(Environment.CurrentDirectory, "../../../data/MagicLandData.json");
             string json = File.ReadAllText(filepath);
-            List<Category> categories = JsonConvert.DeserializeObject<List<Category>>(json);
 
-            // Define a dictionary of actions (delegates) corresponding to different tasks.
+            List<Category> categories = JsonConvert.DeserializeObject<List<Category>>(json);
             var menuOptions = new Dictionary<int, Action<List<Category>>>
             {
                 { 1, FilterDestinations.ShowFilteredDestinations },
@@ -27,18 +26,18 @@ namespace MagicLandExplorer
 
             while (true)
             {
-                // Display the menu options to the user.
+               
                 DisplayMenu();
 
                 var input = Console.ReadLine();
 
-                // Try to parse the user input as an integer.
+               
                 if (int.TryParse(input, out int choice))
                 {
-                    // If the user chooses to exit, break the loop.
+                   
                     if (choice == 6) break;
 
-                    // If the choice is valid, invoke the corresponding action.
+                   
                     if (menuOptions.ContainsKey(choice))
                     {
                         menuOptions[choice](categories);
@@ -47,6 +46,7 @@ namespace MagicLandExplorer
                     {
                         Console.WriteLine("Invalid choice. Please enter a number between 1 and 6.");
                     }
+
                 }
                 else
                 {
@@ -57,13 +57,13 @@ namespace MagicLandExplorer
 
         private static void DisplayMenu()
         {
-            Console.WriteLine("Magic Land Explorer:");
+            Console.WriteLine("\nMagic Land Explorer:");
             Console.WriteLine("1 - Show filtered destinations");
             Console.WriteLine("2 - Show longest duration");
             Console.WriteLine("3 - Sort destinations by name");
             Console.WriteLine("4 - Show top 3 longest durations");
             Console.WriteLine("5 - Show categories with 'Fantasyland' as a shared location");
-            Console.WriteLine("6 - Exit");
+            Console.WriteLine("6 - Exit\n");
 
 
         }
