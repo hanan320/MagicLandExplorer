@@ -1,0 +1,265 @@
+[
+  {
+    "category": "Amusement Park Rides",
+    "destinations": [
+      {
+        "name": "Space Mountain",
+        "type": "Indoor Roller Coaster",
+        "location": "Tomorrowland",
+        "duration": "98 minutes",
+        "description": "Blast off into space on this high-speed roller coaster through the cosmos, zooming past shooting stars and swirling galaxies in the dark."
+      },
+      {
+        "name": "Splash Mountain",
+        "type": "Log Flume Ride",
+        "location": "Critter Country",
+        "duration": "82 minutes",
+        "description": "Take a thrilling plunge down Chickapin Hill with Br'er Rabbit on this classic log flume adventure featuring catchy songs, whimsical characters, and a splashy finale."
+      }
+    ]
+  },
+  {
+    "category": "Cartoon Adventures",
+    "destinations": [
+      {
+        "name": "Roger Rabbit's Car Toon Spin",
+        "type": "Spinning Dark Ride",
+        "location": "Mickey's Toontown",
+        "duration": "106 minutes",
+        "description": "Hop aboard a wacky taxicab and spin through the zany streets of Toontown in this madcap adventure based on the hit film 'Who Framed Roger Rabbit.'"
+      },
+      {
+        "name": "The Many Adventures of Winnie the Pooh",
+        "type": "Dark Ride",
+        "location": "Critter Country",
+        "duration": "129 minutes",
+        "description": "Join Winnie the Pooh and his friends on a whimsical journey through the Hundred Acre Wood, bouncing along with Tigger, blustery adventures with Piglet, and honey-filled escapades with Pooh Bear."
+      }
+    ]
+  },
+  {
+    "category": "Fantasy Kingdom",
+    "destinations": [
+      {
+        "name": "Haunted Mansion",
+        "type": "Dark Ride",
+        "location": "New Orleans Square",
+        "duration": "86 minutes",
+        "description": "Enter the eerie abode of 999 happy haunts and take a ghostly tour through this haunted mansion filled with spooky surprises, ghostly apparitions, and playful spirits."
+      },
+      {
+        "name": "Alice in Wonderland",
+        "type": "Dark Ride",
+        "location": "Fantasyland",
+        "duration": "53 minutes",
+        "description": "Shrink down to size and follow Alice down the rabbit hole on a whimsical journey through Wonderland filled with colorful characters, curious sights, and a tea party with the Mad Hatter."
+      }
+    ]
+  },
+  {
+    "category": "Historic Adventures",
+    "destinations": [
+      {
+        "name": "Mark Twain Riverboat",
+        "type": "Riverboat Cruise",
+        "location": "Frontierland",
+        "duration": "118 minutes",
+        "description": "Relax and enjoy a scenic cruise along the Rivers of America aboard the majestic Mark Twain Riverboat, complete with stunning views of the American frontier."
+      },
+      {
+        "name": "Pirates of the Caribbean",
+        "type": "Dark Ride",
+        "location": "Adventureland",
+        "duration": "230 minutes",
+        "description": "Set sail with Captain Jack Sparrow and his swashbuckling crew on a high-seas adventure through pirate-infested waters, cursed treasure, and lively pirate towns."
+      }
+    ]
+  },
+  {
+    "category": "Enchanted Lands",
+    "destinations": [
+      {
+        "name": "Walt magic's Enchanted Tiki Room",
+        "type": "Audio-Animatronic Show",
+        "location": "Main Street, U.S.A.",
+        "show_time": "Every 20 minutes",
+        "duration": "106 minutes",
+        "description": "Step into a tropical paradise and be enchanted by a colorful cast of singing birds, flowers, and tiki gods in this classic magic attraction featuring charming audio-animatronics and catchy tunes."
+      },
+      {
+        "name": "Buzz Lightyear Astro Blasters",
+        "type": "Interactive Dark Ride",
+        "location": "Tomorrowland",
+        "duration": "142 minutes",
+        "description": "Join Buzz Lightyear on an intergalactic mission to defeat the evil Emperor Zurg by shooting targets and earning points in this thrilling interactive ride."
+      }
+    ]
+  },
+  {
+    "category": "Magical Kingdom",
+    "destinations": [
+      {
+        "name": "Cinderella Castle",
+        "type": "Iconic Landmark",
+        "location": "Main Street, U.S.A.",
+        "description": "Behold the majestic centerpiece of the Magic Kingdom, a fairy-tale castle inspired by the beloved story of Cinderella, featuring enchanting spires, shimmering turrets, and a royal grandeur fit for a princess."
+      },
+      {
+        "name": "Seven Dwarfs Mine Train",
+        "type": "Family Roller Coaster",
+        "location": "Fantasyland",
+        "duration": "106 minutes",
+        "description": "Embark on a whimsical journey through the diamond mines with Snow White and the Seven Dwarfs on this family-friendly roller coaster adventure, featuring swinging mine carts, sparkling jewels, and beloved characters from the classic film."
+      }
+    ]
+  },
+  {
+    "category": "Adventure Isle",
+    "destinations": [
+      {
+        "name": "Jungle Cruise",
+        "type": "River Boat Adventure",
+        "location": "Adventureland",
+        "duration": "92 minutes",
+        "description": "Embark on a thrilling expedition along the tropical rivers of the world, encountering exotic wildlife, ancient ruins, and daring explorers led by your witty skipper in this classic magic attraction."
+      },
+      {
+        "name": "Tarzan's Treehouse",
+        "type": "Interactive Walkthrough",
+        "location": "Adventureland",
+        "description": "Swing through the treetops and explore the lush jungle canopy in this interactive treehouse adventure inspired by magic's animated film 'Tarzan,' featuring rope bridges, secret passages, and breathtaking views of Adventure Isle below."
+      }
+    ]
+  },
+  {
+    "category": "Sci-Fi Adventures",
+    "destinations": [
+      {
+        "name": "Star Tours: The Adventures Continue",
+        "type": "Motion Simulator Ride",
+        "location": "Tomorrowland",
+        "duration": "104 minutes",
+        "description": "Embark on an exhilarating journey through the Star Wars galaxy aboard a Starspeeder 1000, encountering iconic characters, epic battles, and thrilling adventures in this action-packed motion simulator ride."
+      },
+      {
+        "name": "Buzz Lightyear's Space Ranger Spin",
+        "type": "Interactive Dark Ride",
+        "location": "Tomorrowland",
+        "duration": "88 minutes",
+        "description": "Join Buzz Lightyear in a battle against the evil Emperor Zurg as you spin and shoot your way through an intergalactic space mission to save the universe in this interactive dark ride."
+      }
+    ]
+  },
+  {
+    "category": "Fairy Tale Forest",
+    "destinations": [
+      {
+        "name": "Peter Pan's Flight",
+        "type": "Dark Ride",
+        "location": "Fantasyland",
+        "duration": "97 minutes",
+        "description": "Soar through the starlit skies of London and journey to Neverland with Peter Pan on this classic dark ride adventure, where you'll encounter mermaids, pirates, and the villainous Captain Hook."
+      },
+      {
+        "name": "Sleeping Beauty Castle Walkthrough",
+        "type": "Interactive Walkthrough",
+        "location": "Fantasyland",
+        "description": "Explore the enchanting story of Sleeping Beauty as you journey through the corridors and chambers of her iconic castle, encountering magical scenes and intricate dioramas that bring the fairy tale to life."
+      }
+    ]
+  },
+  {
+    "category": "Western Frontier",
+    "destinations": [
+      {
+        "name": "Big Thunder Mountain Railroad",
+        "type": "Mine Train Roller Coaster",
+        "location": "Frontierland",
+        "duration": "121 minutes",
+        "description": "Hold on tight as you race through the rugged wilderness aboard a runaway mine train on this thrilling roller coaster adventure, filled with twists, turns, and explosive surprises in the heart of the Wild West."
+      },
+      {
+        "name": "Frontierland Shootin' Arcade",
+        "type": "Interactive Shooting Gallery",
+        "location": "Frontierland",
+        "description": "Test your sharpshooting skills at this old-fashioned shooting gallery in the heart of Frontierland, where you can take aim at targets and compete for the highest score in a wild west showdown."
+      }
+    ]
+  },
+  {
+    "category": "Undersea Adventures",
+    "destinations": [
+      {
+        "name": "Finding Nemo Submarine Voyage",
+        "type": "Submarine Dark Ride",
+        "location": "Tomorrowland",
+        "duration": "94 minutes",
+        "description": "Dive into the colorful coral reefs and deep-sea trenches of the Pacific Ocean on a submarine voyage inspired by magic Pixar's 'Finding Nemo,' where you'll encounter friendly fish, menacing sharks, and the adventurous clownfish, Nemo."
+      },
+      {
+        "name": "Ariel's Undersea Adventure",
+        "type": "Dark Ride",
+        "location": "Fantasyland",
+        "duration": "109 minutes",
+        "description": "Join Ariel and her friends from magic's 'The Little Mermaid' on a magical journey beneath the waves, where you'll sing along to beloved songs, encounter sea creatures, and experience the wonders of Atlantica."
+      }
+    ]
+  },
+  {
+    "category": "Pixar Playland",
+    "destinations": [
+      {
+        "name": "Toy Story Mania!",
+        "type": "Interactive 4D Ride",
+        "location": "Pixar Playland",
+        "duration": "83 minutes",
+        "description": "Step right up and test your skills at this interactive 4D midway game hosted by Woody, Buzz, and the gang from magic Pixar's 'Toy Story,' where you'll aim, shoot, and score your way through a variety of carnival games and challenges."
+      },
+      {
+        "name": "Slinky Dog Dash",
+        "type": "Family Roller Coaster",
+        "location": "Pixar Playland",
+        "duration": "112 minutes",
+        "description": "Join Slinky Dog on a thrilling roller coaster ride through Andy's backyard on this family-friendly coaster inspired by magic Pixar's 'Toy Story,' featuring twists, turns, and plenty of fun for toy lovers of all ages."
+      }
+    ]
+  },
+  {
+    "category": "Fairytale Kingdom",
+    "destinations": [
+      {
+        "name": "It's a Small World",
+        "type": "Boat Ride",
+        "location": "Fantasyland",
+        "duration": "133 minutes",
+        "description": "Embark on a whimsical boat ride around the globe and journey through a world of singing children, dancing dolls, and iconic landmarks in this classic magic attraction celebrating unity, diversity, and the joy of friendship."
+      },
+      {
+        "name": "Mickey's PhilharMagic",
+        "type": "3D Movie Musical",
+        "location": "Fantasyland",
+        "duration": "98 minutes",
+        "description": "Step into the magical concert hall and join Mickey Mouse on a musical journey through classic magic animated films, where you'll be immersed in stunning 3D visuals, beloved songs, and unforgettable moments brought to life in a symphony of laughter and melody."
+      }
+    ]
+  },
+  {
+    "category": "Galactic Adventures",
+    "destinations": [
+      {
+        "name": "Millennium Falcon: Smugglers Run",
+        "type": "Interactive Motion Simulator Ride",
+        "location": "Star Wars: Galaxy's Edge",
+        "duration": "112 minutes",
+        "description": "Climb aboard the iconic Millennium Falcon and take control as a pilot, gunner, or engineer on a daring smuggling mission through the galaxy in this immersive interactive experience set in the world of Star Wars."
+      },
+      {
+        "name": "Star Wars: Rise of the Resistance",
+        "type": "Dark Ride Experience",
+        "location": "Star Wars: Galaxy's Edge",
+        "duration": "145 minutes",
+        "description": "Join the Resistance and face off against the First Order in a thrilling adventure that blurs the lines between fantasy and reality, as you find yourself caught in the middle of an epic battle between good and evil in the galaxy far, far away."
+      }
+    ]
+  }
+]
