@@ -11,6 +11,7 @@ namespace MagicLandExplorer.Task
         public static void ShowFilteredDestinations(List<Category> categories)
         {
             var filteredDestinations = GetFilteredDestinations(categories, 100);
+
             DisplayDestinations(filteredDestinations);
         }
 
@@ -24,6 +25,7 @@ namespace MagicLandExplorer.Task
         public static void DisplayDestinations(List<Destination> destinations)
         {
             Console.WriteLine("Destinations with duration less than 100 minutes:");
+
             foreach (var destination in destinations)
             {
                 Console.WriteLine(destination.Name);

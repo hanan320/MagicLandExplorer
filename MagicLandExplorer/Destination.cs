@@ -15,13 +15,14 @@ namespace MagicLandExplorer
         public string Duration { get; set; }
         public string Description { get; set; }
 
-        // Method to get the duration as an integer
+      
         public int GetDurationInMinutes()
         {
-            // Example: "98 minutes" -> 98
+           
             if (string.IsNullOrEmpty(Duration)) return 0;
 
             var parts = Duration.Split(' ');
+
             if (parts.Length > 0 && int.TryParse(parts[0], out int result))
             {
                 return result;

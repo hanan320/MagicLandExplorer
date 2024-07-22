@@ -11,6 +11,7 @@ namespace MagicLandExplorer.Task
         public static void ShowLongestDuration(List<Category> categories)
         {
             var longestDurationDestination = GetLongestDurationDestination(categories);
+
             DisplayLongestDurationDestination(longestDurationDestination);
         }
 
@@ -24,6 +25,7 @@ namespace MagicLandExplorer.Task
         public static void DisplayLongestDurationDestination(Destination destination)
         {
             Console.WriteLine("Destination with the longest duration:");
+
             if (destination != null)
             {
                 Console.WriteLine($"{destination.Name} ({destination.GetDurationInMinutes()} minutes)");
